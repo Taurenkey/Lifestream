@@ -14,7 +14,7 @@ public sealed class CustomAethernet
     public static readonly uint BaseEurekaId = 69420100;
     public static readonly uint BaseBozjaId = 69420200;
     public static readonly uint BaseZandorId = 69420300;
-    public static readonly uint BaseOccultId = 69420400;
+    private static uint BaseOccultId = 69420400;
     private static uint BaseMoonId = 69420500;
 
     public IEnumerable<uint> QuasiAethernetZones => ZoneInfo.Keys;
@@ -66,11 +66,11 @@ public sealed class CustomAethernet
             new(new(781.1f, -417.5f), 827, GetPlaceName(2892), BaseEurekaId+32), //The East Val River Bank (2879), Dormitory (2892),
             ]),
         [1252] = new([
-            new(new(830.7f, -696.0f), 1252, GetPlaceName(4944), BaseOccultId, new(38.0f, 7.5f)), //Southdown Heath (4934), Expedition Base Camp (4944),
-            new(new(-173.0f, -611.1f), 1252, GetPlaceName(4928), BaseOccultId+1, new(18f, 9.2f)), //4936	The Wanderer's Haven	1	Wanderer's Haven	0	0	1	0	0		0	0	0
-            new(new(-358.1f, -121.0f), 1252, GetPlaceName(4929), BaseOccultId+2, new(14.2f, 19f)), //4939	Crystallized Caverns	1	crystallized caverns	0	0	1	0	0		0	0	0
-            new(new(306.9f, 305.7f), 1252, GetPlaceName(4930), BaseOccultId+3, new(27.6f, 27.5f)), //4940	Eldergrowth	1	Eldergrowth	0	0	1	0	0		0	0	0
-            new(new(-384.1f, 281.4f), 1252, GetPlaceName(4947), BaseOccultId+4, new(13.7f, 27f)), //4947	Stonemarsh	1	Stonemarsh	0	0	1	0	1		0	0	0
+            new(new(830.7f, -696.0f), 1252, GetPlaceName(4944), BaseOccultId++, new(38.0f, 7.5f)), //Southdown Heath (4934), Expedition Base Camp (4944),
+            new(new(-173.0f, -611.1f), 1252, GetPlaceName(4928), BaseOccultId++, new(18f, 9.2f)), //4936	The Wanderer's Haven	1	Wanderer's Haven	0	0	1	0	0		0	0	0
+            new(new(-358.1f, -121.0f), 1252, GetPlaceName(4929), BaseOccultId++, new(14.2f, 19f)), //4939	Crystallized Caverns	1	crystallized caverns	0	0	1	0	0		0	0	0
+            new(new(306.9f, 305.7f), 1252, GetPlaceName(4930), BaseOccultId++, new(27.6f, 27.5f)), //4940	Eldergrowth	1	Eldergrowth	0	0	1	0	0		0	0	0
+            new(new(-384.1f, 281.4f), 1252, GetPlaceName(4947), BaseOccultId++, new(13.7f, 27f)), //4947	Stonemarsh	1	Stonemarsh	0	0	1	0	1		0	0	0
             ], [Lang.AethernetShardTooltipPlaceholder]),
         [1237] = new([
             new(new(-3.8f, -32.2f), 1237, GetPlaceName(WKSAetheryte.Get(1).Name.RowId), BaseMoonId++), //The Cosmoor (5220), Moongate Hub (5225), 
@@ -93,6 +93,7 @@ public sealed class CustomAethernet
             new(new(-454.2f, 760.8f), 1310, GetPlaceName(WKSAetheryte.Get(13).Name.RowId), BaseMoonId++), //Cape Geras (5410),  (0), 
             new(new(733.8f, -101.0f), 1310, GetPlaceName(WKSAetheryte.Get(14).Name.RowId), BaseMoonId++), //Shadefleet (5412),  (0), 
             new(new(-124.6f, -801.5f), 1310, GetPlaceName(WKSAetheryte.Get(15).Name.RowId), BaseMoonId++), //Emerald Echoes (5413), Desert Burrow (5424, 5460), 
+
             ])
     };
 
