@@ -72,12 +72,12 @@ public sealed class CustomAethernet
             new(new(-384.1f, 281.4f), 1252, GetPlaceName(4947), BaseOccultId++, new(13.7f, 27f)), //4947	Stonemarsh	1	Stonemarsh	0	0	1	0	1		0	0	0
             ], [Lang.AethernetShardTooltipPlaceholder]),
         [1346] = new([
-            new(new(880.0f, 880.1f), 1346, GetPlaceName(5571), BaseOccultId+10, new(39.0f, 39.1f)),
-            new(new(451.7f, 528.8f), 1346, GetPlaceName(5576), BaseOccultId+11, new(30.5f, 32.1f)),
-            new(new(357.7f, -554.3f), 1346, GetPlaceName(5572), BaseOccultId+12, new(28.6f, 10.4f)),
-            new(new(-547.2f, 594.4f), 1346, GetPlaceName(5573), BaseOccultId+13, new(10.5f, 33.3f)),
-            new(new(-388.6f, -440.5f), 1346, GetPlaceName(5574), BaseOccultId+14, new(13.6f, 12.7f)),
-            new(new(-13.7f, -40.5f), 1346, GetPlaceName(5575), BaseOccultId+15, new(21.2f, 20.7f)),
+            new(new(880.0f, 880.1f), 1346, GetPlaceName(5571), BaseOccultId++, new(39.0f, 39.1f)),
+            new(new(451.7f, 528.8f), 1346, GetPlaceName(5576), BaseOccultId++, new(30.5f, 32.1f)),
+            new(new(357.7f, -554.3f), 1346, GetPlaceName(5572), BaseOccultId++, new(28.6f, 10.4f)),
+            new(new(-547.2f, 594.4f), 1346, GetPlaceName(5573), BaseOccultId++, new(10.5f, 33.3f)),
+            new(new(-388.6f, -440.5f), 1346, GetPlaceName(5574), BaseOccultId++, new(13.6f, 12.7f)),
+            new(new(-13.7f, -40.5f), 1346, GetPlaceName(5575), BaseOccultId++, new(21.2f, 20.7f)),
             ], [Lang.AethernetShardTooltipPlaceholder]),
         [1237] = new([
             new(new(-3.8f, -32.2f), 1237, GetPlaceName(WKSAetheryte.Get(1).Name.RowId), BaseMoonId++), //The Cosmoor (5220), Moongate Hub (5225), 
